@@ -1,0 +1,130 @@
+* {padding:0;margin:0;}
+
+body
+{
+    background-color: #f7f7f7;   
+}
+
+nav
+{
+    background-color: #393939;
+    height:50px;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:200;
+}
+
+nav .lien-site-iut
+{
+    color:#fff;
+    position: absolute;
+    left:2%;
+    top:30%;
+}
+
+nav a:hover
+{
+    color:red;
+    text-decoration: none;
+}
+
+nav ul
+{
+    position:absolute;
+    right:5%;
+    top:30%;
+    list-style: none;
+}
+
+nav li
+{
+    display:table-cell;   
+    padding-left:15px;
+    padding-right:15px;
+}
+
+nav li>a
+{
+    color :#fff;   
+}
+
+#slider
+{
+    height:72vh;
+    background-color: #ddd;
+    background: url(../img/slider.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#slider h1
+{
+    padding-top:35vh;
+    text-align: center;
+    color:#fff;
+}
+
+.keur
+{
+    color:#05b8a4;   
+}
+
+#skills
+{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.skl
+{
+    margin-top: 30px;   
+}
+
+#skills .skl>p
+{
+    text-align: justify; 
+    width:80%;
+    margin:20px auto 0;
+}
+
+#skills .skl>h2
+{
+    color:#05b8a4;
+    text-align: center;
+}
+
+#skills .skl>img
+{
+    height:140px;
+    text-align: center;
+    display: block;
+    margin:0 auto;
+}
+
+#video
+{
+    padding-top: 60px; 
+    padding-bottom: 40px; 
+    border-top:#333 1px solid;
+}
+
+#video .row
+{
+    width:80%;
+    margin:0 auto;
+}
+
+.vid
+{
+    background-color: #191919;
+    height:150px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+#video p
+{
+    text-align: justify;
+    width:90%;
+    margin:0 auto;
+}
